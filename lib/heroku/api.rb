@@ -37,7 +37,7 @@ module Heroku
   class API
 
     HEADERS = {
-      'Accept'                => 'application/json',
+      'Accept'                => 'application/vnd.heroku+json; version=3',
       'Accept-Encoding'       => 'gzip',
       #'Accept-Language'       => 'en-US, en;q=0.8',
       'User-Agent'            => "heroku-rb/#{Heroku::API::VERSION}",
